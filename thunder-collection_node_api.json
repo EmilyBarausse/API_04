@@ -1,0 +1,142 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "node_api",
+    "dateExported": "2024-04-22T18:21:56.523Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "da6ffb65-7d9a-4be2-a860-d5c9ce1afe0a",
+            "colId": "7248a225-6414-4d6a-a440-f358ff1820d5",
+            "containerId": "",
+            "name": "teste atualizar task",
+            "url": "http://localhost:3000/tasks/12/update",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2024-04-22T17:21:14.382Z",
+            "modified": "2024-04-22T17:37:09.539Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"task\":\"Parabéns por atualizar uma Task no servidor\",\n  \"status\":\"task atualizada\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e74b4fda-4d42-47cf-84ad-0e028dbc3048",
+            "colId": "7248a225-6414-4d6a-a440-f358ff1820d5",
+            "containerId": "",
+            "name": "teste de entrada",
+            "url": "http://localhost:3000/tasks",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-22T18:04:39.837Z",
+            "modified": "2024-04-22T18:17:29.074Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"task\":\"Parabéns por atualizar uma Task no servidor\",\n  \"status\":\"task atualizada\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0310f309-b2e4-450e-ab4b-80027edf6190",
+            "colId": "7248a225-6414-4d6a-a440-f358ff1820d5",
+            "containerId": "",
+            "name": "teste de todas ",
+            "url": "http://localhost:3000/tasks/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-22T18:05:50.068Z",
+            "modified": "2024-04-22T18:19:31.179Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"task\":\"Parabéns por atualizar uma Task no servidor\",\n  \"status\":\"task atualizada\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a5517549-d9bd-4419-b952-d63e792ea24b",
+            "colId": "7248a225-6414-4d6a-a440-f358ff1820d5",
+            "containerId": "",
+            "name": "teste de task por id",
+            "url": "http://localhost:3000/tasks/4",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-22T18:07:01.667Z",
+            "modified": "2024-04-22T18:08:03.996Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"task\":\"Parabéns por atualizar uma Task no servidor\",\n  \"status\":\"task atualizada\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7eadb683-2c85-4533-b109-a73a0a229f6d",
+            "colId": "7248a225-6414-4d6a-a440-f358ff1820d5",
+            "containerId": "",
+            "name": "teste atualizar status da task",
+            "url": "http://localhost:3000/tasks/8/status/atualizado",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-04-22T18:08:24.875Z",
+            "modified": "2024-04-22T18:10:25.501Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"task\":\"Parabéns por atualizar uma Task no servidor\",\n  \"status\":\"task atualizada\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7d937be7-133a-409a-a761-489f26511433",
+            "colId": "7248a225-6414-4d6a-a440-f358ff1820d5",
+            "containerId": "",
+            "name": "teste deletar task",
+            "url": "http://localhost:3000/tasks/7/delete",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-04-22T18:10:41.940Z",
+            "modified": "2024-04-22T18:12:29.197Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"task\":\"Parabéns por atualizar uma Task no servidor\",\n  \"status\":\"task atualizada\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e7dbd6d1-f42e-49c1-ba64-8dccfc658c74",
+            "colId": "7248a225-6414-4d6a-a440-f358ff1820d5",
+            "containerId": "",
+            "name": "teste inserir task",
+            "url": "http://localhost:3000/tasks/create",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-04-22T18:12:46.587Z",
+            "modified": "2024-04-22T18:20:41.420Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"task\":\"Parabéns por atualizar uma Task no servidor\",\n  \"status\":\"task atualizada\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
